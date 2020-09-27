@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import App from './App.vue'
 import persianDigit from './filter/persianDigit'
 
 Vue.config.productionTip = false
@@ -11,3 +12,7 @@ let VPlugin = {
 Vue.use(VPlugin)
 
 export default VPlugin
+
+new Vue({
+  render: h => h(App)
+}).$mount('#app')

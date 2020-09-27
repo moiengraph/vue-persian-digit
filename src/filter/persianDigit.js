@@ -12,10 +12,10 @@ export default function persianDigit (value) {
     9: '۹'
   }
 
-  let result = value.toString()
+  var result = value.toString()
   for (let i = 0; i <= 9; i++) {
     result = result.replace(new RegExp(`${i}`, 'g'), persian[i])
   }
-  value = result
+  // Vue.nextTick(() => this.value = result)
   return result
 }

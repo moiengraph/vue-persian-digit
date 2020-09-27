@@ -1,15 +1,40 @@
 {
-  "name": "vue-persian-digit",
-  "version": "0.0.7",
+  "_args": [
+    [
+      "vue-persian-digit@0.0.3",
+      "C:\\Users\\Moiengraph\\Desktop\\Lozi Shop\\Vuemmerce"
+    ]
+  ],
+  "_from": "vue-persian-digit@0.0.3",
+  "_id": "vue-persian-digit@0.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-H7YYFDE/4rA3OlRCn6QfY4gaeHrE3nfTYspjgRy01qGFFrdGZ8EOBy/NFxFyM0ZUMuBBi7DEhH6zGQnOGzsLHg==",
+  "_location": "/vue-persian-digit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "vue-persian-digit@0.0.3",
+    "name": "vue-persian-digit",
+    "escapedName": "vue-persian-digit",
+    "rawSpec": "0.0.3",
+    "saveSpec": null,
+    "fetchSpec": "0.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-persian-digit/-/vue-persian-digit-0.0.3.tgz",
+  "_spec": "0.0.3",
+  "_where": "C:\\Users\\Moiengraph\\Desktop\\Lozi Shop\\Vuemmerce",
+  "author": {
+    "name": "behnam jaberi"
+  },
+  "bugs": {
+    "url": "https://github.com/behnamjz/vue-persian-digit/issues"
+  },
   "description": "> this filter convert number in the text to persian number",
-  "main": "./src/main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/behnamjz/vue-persian-digit.git"
-  },
+  "homepage": "https://github.com/behnamjz/vue-persian-digit#readme",
   "keywords": [
     "Filter",
     "Vue Filter",
@@ -27,10 +52,15 @@
     "Persian Numbers Filters",
     "Persian Digit Filter"
   ],
-  "author": "behnam jaberi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/behnamjz/vue-persian-digit/issues"
+  "main": "./src/main.js",
+  "name": "vue-persian-digit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behnamjz/vue-persian-digit.git"
   },
-  "homepage": "https://github.com/behnamjz/vue-persian-digit#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.3"
 }
