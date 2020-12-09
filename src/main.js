@@ -13,6 +13,8 @@ Vue.use(VPlugin)
 
 export default VPlugin
 
+window.onload = function () {
 new Vue({
   render: h => h(App)
 }).$mount('#persianapp')
+}
