@@ -15,4 +15,4 @@ export default VPlugin
 
 new Vue({
   render: h => h(App)
-}).$mount('#main')
+}).$mount('#persianapp')
